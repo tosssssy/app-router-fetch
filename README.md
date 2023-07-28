@@ -8,7 +8,7 @@
 
 正常に動作。
 
-![image](https://github.com/tosssssy/app-router-fetch/assets/65057976/767600ad-c55b-4239-bd90-81d9cbf15f25)
+![image](https://github.com/tosssssy/app-router-fetch/assets/65057976/358403ae-bc73-4a40-a2a0-43e3e93bb01f)
 
 
 ### SWR 内部の use 代替実装
