@@ -19,14 +19,14 @@ export default async function Home() {
   const usersPromise = getUsers();
 
   return (
-    <main className=''>
-      {/* <Suspense fallback={<div>loading...</div>}>
-        <UserList usersPromise={usersPromise} />
-      </Suspense> */}
-
+    <main>
       <Suspense fallback={<div>loading...</div>}>
-        <UserList_swr_use usersPromise={usersPromise} />
+        <UserList usersPromise={usersPromise} />
       </Suspense>
+
+      {/* <Suspense fallback={<div>loading...</div>}>
+        <UserList_swr_use usersPromise={usersPromise} />
+      </Suspense> */}
     </main>
   );
 }
